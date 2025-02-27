@@ -1,0 +1,10 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore VS Code settings
+.vscode/
