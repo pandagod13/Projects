@@ -4,14 +4,14 @@ This project performs an exploratory data analysis (EDA) on a dataset of Spotify
 
 ## Project Structure
 
-- **Data Understanding & Preparation**: Load and inspect the data using Pandas. Check the shape, data types, and missing values. Create a table summarizing features and handle missing data.
-- **Descriptive Statistics**: Calculate mean, median, range, and standard deviation for numerical features. Visualize distributions using histograms, boxplots, or density plots. Count unique values and frequencies for categorical features and visualize distributions using bar plots or pie charts.
-- **Popularity Analysis**: Plot a histogram of Popularity Score to see if it’s skewed. Create a heatmap of correlations between popularity and audio features. Use scatterplots to explore relationships like Popularity vs. Loudness or Tempo. Group by Genre or Artist and plot average popularity.
-- **Audio Feature Exploration**: Use pair plots or scatter matrices to explore interactions between audio features. Use PCA or t-SNE to reduce audio features to 2D and color-code by genre/popularity. Compare average Energy or Acousticness across genres using boxplots.
-- **Lyrics-Based Analysis**: Use NLP libraries like TextBlob to analyze lyric sentiment and compare sentiment scores with Valence. Generate word clouds for lyrics of top-popularity vs. low-popularity songs.
-- **Temporal Trends**: Create a line chart of average Popularity or Tempo over time. Identify trends such as 'Songs released in 2020 are louder'. Compare features between older and newer songs.
-- **Genre & Artist Insights**: Sort genres by average popularity and visualize with a horizontal bar chart. Identify artists with the most songs in the dataset. Check if songs with multiple artists are more popular.
-- **Outlier Detection**: Find songs with extreme values and explore if outliers are valid or errors.
+- **Data Understanding & Preparation**: Utilize Pandas to load and inspect the dataset, checking its shape, data types, and missing values. Summarize features in a table and address any missing data.
+- **Descriptive Statistics**: Compute mean, median, range, and standard deviation for numerical features. Visualize distributions through histograms, boxplots, or density plots. For categorical features, count unique values and frequencies, and visualize distributions using bar plots or pie charts.
+- **Popularity Analysis**: Create a histogram of the Popularity Score to assess skewness. Generate a heatmap to show correlations between popularity and audio features. Use scatterplots to examine relationships such as Popularity vs. Loudness or Tempo. Group data by Genre or Artist and plot average popularity.
+- **Audio Feature Exploration**: Employ pair plots or scatter matrices to investigate interactions between audio features. Apply PCA or t-SNE to reduce audio features to 2D, color-coding by genre or popularity. Use boxplots to compare average Energy or Acousticness across genres.
+- **Lyrics-Based Analysis**: Leverage NLP libraries like TextBlob to analyze lyric sentiment and compare sentiment scores with Valence. Create word clouds for lyrics of high-popularity versus low-popularity songs.
+- **Temporal Trends**: Develop a line chart to display average Popularity or Tempo over time, identifying trends such as 'Songs released in 2020 are louder'. Contrast features between older and newer songs.
+- **Genre & Artist Insights**: Rank genres by average popularity and visualize with a horizontal bar chart. Identify artists with the most songs in the dataset and examine if songs with multiple artists are more popular.
+- **Outlier Detection**: Detect songs with extreme values and investigate whether these outliers are valid or errors.
 
 ## How to Run
 
